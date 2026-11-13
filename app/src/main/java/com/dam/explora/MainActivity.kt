@@ -42,7 +42,7 @@ sealed interface TipoReto {
     data class Funcional(val rondas: Int, val ejercicio: String) : TipoReto
 }
 
-// 3. Modelo de dados: data class para Reto e Lugar
+// data class para Reto y Lugar
 data class Reto(
     val id: Int,
     val nombre: String,
@@ -318,7 +318,7 @@ fun TarjetaLugar(
     }
 }
 
-// 5. Previews: Claro, Escuro, Valenciano, Inglês, Fuente Grande e Tablet
+// Previews Claro, Escuro, Valenciano, Inglês, Fuente Grande y Tablet
 @Preview(name = "1. Español (Claro)", showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Preview(name = "2. Español (Oscuro)", showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES)
 @Preview(name = "3. Valencià (CA)", showBackground = true, locale = "ca")
