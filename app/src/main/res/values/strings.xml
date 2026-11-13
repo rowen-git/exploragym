@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExploraGym</string>
+    <string name="buscar_lugar">Buscar gimnasio o zona</string>
+    <string name="retos_disponibles">%1$d retos de entrenamiento • Dificultad: %2$s</string>
+    <string name="dificultad_principiante">Principiante</string>
+    <string name="dificultad_intermedio">Intermedio</string>
+    <string name="dificultad_avanzado">Avanzado</string>
+
+    <plurals name="contador_visitados_plural">
+        <item quantity="one">Entrenado en: %1$d de %2$d gimnasio</item>
+        <item quantity="other">Entrenado en: %1$d de %2$d gimnasios</item>
+    </plurals>
+</resources>

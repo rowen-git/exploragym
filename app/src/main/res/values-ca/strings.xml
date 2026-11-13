@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">ExploraGym</string>
+        <string name="buscar_lugar">Buscar gimnàs o zona</string>
+        <string name="retos_disponibles">%1$d reptes d\'entrenament • Dificultat: %2$s</string>
+        <string name="dificultad_principiante">Principiant</string>
+        <string name="dificultad_intermedio">Intermedi</string>
+        <string name="dificultad_avanzado">Avançat</string>
+
+    <plurals name="contador_visitados_plural">
+        <item quantity="one">Entrenat en: %1$d de %2$d gimnàs</item>
+        <item quantity="many">Entrenat en: %1$d de %2$d gimnasos</item>
+        <item quantity="other">Entrenat en: %1$d de %2$d gimnasos</item>
+    </plurals>
+</resources>
