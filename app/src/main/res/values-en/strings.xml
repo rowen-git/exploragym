@@ -7,8 +7,18 @@
     <string name="dificultad_intermedio">Intermediate</string>
     <string name="dificultad_avanzado">Advanced</string>
 
+    <string name="solo_pendientes">Pending only</string>
+    <string name="orden_nombre">Name</string>
+    <string name="orden_dificultad">Difficulty</string>
+    <string name="sin_lugares">No places match the current filters.</string>
+
     <plurals name="contador_visitados_plural">
         <item quantity="one">Trained at: %1$d of %2$d gym</item>
         <item quantity="other">Trained at: %1$d of %2$d gyms</item>
+    </plurals>
+
+    <plurals name="mostrando_lugares">
+        <item quantity="one">Showing %d place</item>
+        <item quantity="other">Showing %d places</item>
     </plurals>
 </resources>

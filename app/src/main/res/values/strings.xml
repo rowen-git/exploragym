@@ -6,8 +6,18 @@
     <string name="dificultad_intermedio">Intermedio</string>
     <string name="dificultad_avanzado">Avanzado</string>
 
+    <string name="solo_pendientes">Solo pendientes</string>
+    <string name="orden_nombre">Nombre</string>
+    <string name="orden_dificultad">Dificultad</string>
+    <string name="sin_lugares">No hay lugares que coincidan con los filtros actuales.</string>
+
     <plurals name="contador_visitados_plural">
         <item quantity="one">Entrenado en: %1$d de %2$d gimnasio</item>
         <item quantity="other">Entrenado en: %1$d de %2$d gimnasios</item>
+    </plurals>
+
+    <plurals name="mostrando_lugares">
+        <item quantity="one">Mostrando %d lugar</item>
+        <item quantity="other">Mostrando %d lugares</item>
     </plurals>
 </resources>
